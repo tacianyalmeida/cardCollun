@@ -1,0 +1,58 @@
+:root{
+    
+--Very-dark-blue: hsl(233, 47%, 7%);
+--Dark-blue: hsl(244, 38%, 16%);
+--Soft-violet: hsl(277, 64%, 61%);
+
+
+--White : hsl(0, 0%, 100%)
+--Slightly-transparent-white: hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: hsl(233, 47%, 7%) ;
+   
+}
+
+.containerFilho{
+    width: 500px;
+    height: 500px;
+   background-color:hsl(244, 38%, 16%);
+}
+
+.titulo{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    
+}
+.part2{
+    color: white;
+    font-size: 15px;
+    flex-direction: column;
+}
+.subTitulo{
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.75) ;
+}
+.subPart2{
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.75) ;
+}
+
+.subPart3{
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.75) ;
+}
+
+.conteinerImg{
+    position: relative;
+    display: flex;
+}
